@@ -1,0 +1,46 @@
+/* Estilos gerais */
+@import url("menu.css"); 
+@import url("animate.css");
+@import url("home.css"); 
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:#000;
+}
+/* Define o tamanho máximo do container */
+@media (min-width: 1300px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1600px;
+    }
+}
+
+/* Alinha conteudos dentro da div */
+.align_flex{
+    display: flex;
+    align-items:center; 
+    flex-wrap: wrap; 
+    flex-direction: row;
+}
+
+.align_flex_center{
+    display: flex;
+    align-items:center; 
+    justify-content: center;
+    border-radius: 50%;
+}
+.align_flex_right{
+    display: flex;
+    align-items:center; 
+    justify-content: right;
+    border-radius: 50%;
+}
